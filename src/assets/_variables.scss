@@ -1,0 +1,35 @@
+// Light Theme Variables (Default)
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$background-color: #ffffff;
+$text-color: #000000;
+
+// Dark Theme Variables
+$dark-primary-color: #1e90ff;
+$dark-secondary-color: #555;
+$dark-background-color: #121212;
+$dark-text-color: #ffffff;
+
+// Mixin to Apply Light Theme
+@mixin theme-light {
+  :root {
+    --primary-color: #{$primary-color};
+    --secondary-color: #{$secondary-color};
+    --background-color: #{$background-color};
+    --text-color: #{$text-color};
+  }
+}
+
+// Mixin to Apply Dark Theme
+@mixin theme-dark {
+  [data-theme="dark"] {
+    --primary-color: #{$dark-primary-color};
+    --secondary-color: #{$dark-secondary-color};
+    --background-color: #{$dark-background-color};
+    --text-color: #{$dark-text-color};
+  }
+}
+
+// Apply the themes
+@include theme-light;
+@include theme-dark;

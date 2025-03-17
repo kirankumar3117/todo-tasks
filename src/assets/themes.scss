@@ -1,0 +1,22 @@
+:root {
+    @include theme-light;
+  }
+  
+  .dark-theme {
+    @include theme-dark;
+  }
+  
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  button {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
