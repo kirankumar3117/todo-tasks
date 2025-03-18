@@ -5,12 +5,7 @@
   .dark-theme {
     @include theme-dark;
   }
-  
-  body {
-    background-color: var(--background-color);
-    color: var(--text-color);
-  }
-  
+
   button {
     background-color: var(--primary-color);
     color: var(--text-color);
@@ -20,3 +15,6 @@
     cursor: pointer;
   }
   
+  button:hover{
+        background-color: var(--secondary-color);
+  }

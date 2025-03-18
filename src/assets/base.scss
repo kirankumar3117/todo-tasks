@@ -1,2 +1,27 @@
+// mixins
+@import "./abstract/mixins";
+
 @import "./variables";
 @import "./themes.scss";
+@import "./layouts/layout";
+
+@import "./base/base";
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  width: 100%;
+  height: 100vh;
+}
+
+
+

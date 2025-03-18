@@ -1,14 +1,14 @@
 // Light Theme Variables (Default)
-$primary-color: #007bff;
-$secondary-color: #6c757d;
-$background-color: #ffffff;
-$text-color: #000000;
+$primary-color: #e2e2e2;
+$secondary-color: #d6d6d6;
+$background-color: #c2c2c2;
+$text-color: #131313;
 
 // Dark Theme Variables
-$dark-primary-color: #1e90ff;
-$dark-secondary-color: #555;
+$dark-primary-color: #2b2b2b;
+$dark-secondary-color: #404040;
 $dark-background-color: #121212;
-$dark-text-color: #ffffff;
+$dark-text-color: #cbcbcb;
 
 // Mixin to Apply Light Theme
 @mixin theme-light {
